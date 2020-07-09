@@ -17,14 +17,20 @@ class Users extends CI_Controller
 	}
 	// About us.
 	public function about(){
-		echo "We're a company operating under the govt's law, we strictly follow law and orders.";
+		$data['title'] = 'About Us | HACO';
+		$data['body'] = 'users/about';
+		$this->load->view('components/template', $data);
 	}
 	// Contact us.
 	public function contact(){
-		echo "Contact us using the given numbers or write your message directly by filling the form below.";
+		$data['title'] = 'Contact Us | HACO';
+		$data['body'] = 'users/contact';
+		$this->load->view('components/template', $data);
 	}
 	// Our projects.
 	public function projects(){
-		echo "Here's the list of projects that we've completed till date";
+		$data['title'] = 'Projects | HACO';
+		$data['body'] = 'users/projects';
+		$this->load->view('components/template', $data);
 	}
 }
