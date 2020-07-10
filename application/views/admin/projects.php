@@ -17,7 +17,7 @@
 						<label for="description">Project Description</label>
 					</div>
 					<div class="col-md-4">
-						<textarea name="project_description" rows="3" class="form-control"></textarea>
+						<textarea name="project_description" rows="3" class="form-control" placeholder="Write some description here..."></textarea>
 					</div>
 				</div><br>
 				<div class="row">
